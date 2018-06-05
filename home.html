@@ -1,0 +1,13 @@
+<script type="text/javascript" src="libs/jquery-1.6.3.min.js"></script>
+<script type="text/javascript" src="libs/jquery.tmpl.min.js"></script>
+<script type="text/javascript" src="libs/knockout-1.2.1.min.js"></script>
+<script src="modelHome.js" type="text/javascript"></script>
+<p>Nome: <input data-bind="value: firstName" /></p>
+<p>Sobrenome: <input data-bind="value: lastName" /></p>
+
+<p>Nome: <span data-bind="text: firstName">todo</span></p>
+<p>Sobrenome: <span data-bind="text: lastName">todo</span></p>
+<p>Nome Cheio: <span data-bind="text: fullName">todo</span></p>
+
+<button data-bind="click: capitalizeLastName">Maiúscula</button>
+<button data-bind="click: desCapitalizeLastName">Minúscula</button>
